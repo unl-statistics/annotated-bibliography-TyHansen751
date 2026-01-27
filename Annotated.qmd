@@ -1,0 +1,24 @@
+---
+title: "Annotated Bibliography: Deep Learning from a Statistical Perspective"
+bibliography: AnnotatedBib.bib
+csl: chicago-syllabus.csl
+suppress-bibliography: true
+link-citations: false
+citations-hover: false
+---
+
+- @goodfellowExplainingHarnessingAdversarial2015
+    - Summary: Neural networks are really good at recognizing things like images, but tiny, sneaky changes to an image (that humans barely notice) can trick them into confidently giving the wrong answer. The paper says this happens mostly because networks act "linear" in high dimensions. They show a super simple trick (Fast Gradient Sign Method) to create these tricky examples and explain that training the network on them makes it tougher and sometimes even more accurate overall.
+    
+    - Reliability assessment: Written by top experts (one invented a famous AI technique called GANs). It's a hugely influential paper (cited thousands of times) from a major conference.
+    
+    - Missing information:
+       To fully understand why small changes cause big mistakes, you need some basics of high dimensional spaces and how tiny tweaks add up. The paper also assumes you know what a decision boundary is in a neural network.
+
+- @lecunLearningProcessAsymmetric1986
+    - Summary: Back in the 1980s, simple networks could only learn easy, straight line patterns. This paper shows an early way to train deeper networks with "hidden" layers in between. It uses backpropagation: you calculate the error, send it backward through the layers, and tweak the connections so the network learns complicated, curvy patterns.
+    
+    - Yann LeCun is one of the godfathers of modern deep learning (ex cheif scientist of MetaAI). This is one of the very first papers describing backpropagation. The atricle cites it as a key historical step showing how gradient based training became the main way to teach neural networks.
+    
+    - Missing information:
+       To fully understand the learning process, you need basics of gradient descent and the chain rule for passing errors backward through layers. The paper assumes you know why single layer networks were limited to simple problems.
