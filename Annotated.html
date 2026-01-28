@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ty Hansen">
+<meta name="dcterms.date" content="2026-01-28">
 
 <title>Annotated Bibliography: Deep Learning from a Statistical Perspective</title>
 <style>
@@ -52,7 +54,19 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ty Hansen </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 28, 2026</p>
+    </div>
+  </div>
   
     
   </div>
@@ -66,14 +80,14 @@ ul.task-list li input[type="checkbox"] {
 <li><span class="citation" data-cites="goodfellowExplainingHarnessingAdversarial2015">Ian J. Goodfellow, Jonathon Shlens, and Christian Szegedy <span>“Explaining and <span>Harnessing</span> <span>Adversarial</span> <span>Examples</span>”</span> (arXiv, March 2015), <a href="https://doi.org/10.48550/arXiv.1412.6572">https://doi.org/10.48550/arXiv.1412.6572</a>.</span>
 <ul>
 <li><p>Summary: Neural networks are really good at recognizing things like images, but tiny, sneaky changes to an image (that humans barely notice) can trick them into confidently giving the wrong answer. The paper says this happens mostly because networks act “linear” in high dimensions. They show a super simple trick (Fast Gradient Sign Method) to create these tricky examples and explain that training the network on them makes it tougher and sometimes even more accurate overall.</p></li>
-<li><p>Reliability assessment: Written by top experts (one invented a famous AI technique called GANs). It’s a hugely influential paper (cited thousands of times) from a major conference.</p></li>
+<li><p>Reliability assessment: Written by top experts, Goofellow credited with created GANS, a technique that uses neural networks to create realistic images and content.It’s a hugely influential paper that is cited over 28 thousand times, in articles related to deep learning.</p></li>
 <li><p>Missing information: To fully understand why small changes cause big mistakes, you need some basics of high dimensional spaces and how tiny tweaks add up. The paper also assumes you know what a decision boundary is in a neural network.</p></li>
 </ul></li>
 <li><span class="citation" data-cites="lecunLearningProcessAsymmetric1986">Yann Le Cun <span>“Learning <span>Process</span> in an <span>Asymmetric</span> <span>Threshold</span> <span>Network</span>,”</span> in <em>Disordered <span>Systems</span> and <span>Biological</span> <span>Organization</span></em>, ed. E. Bienenstock, F. Fogelman Soulié, and G. Weisbuch (Berlin, Heidelberg: Springer, 1986), 233–40, <a href="https://doi.org/10.1007/978-3-642-82657-3_24">https://doi.org/10.1007/978-3-642-82657-3_24</a>.</span>
 <ul>
-<li><p>Summary: Back in the 1980s, simple networks could only learn easy, straight line patterns. This paper shows an early way to train deeper networks with “hidden” layers in between. It uses backpropagation: you calculate the error, send it backward through the layers, and tweak the connections so the network learns complicated, curvy patterns.</p></li>
-<li><p>Yann LeCun is one of the godfathers of modern deep learning (ex cheif scientist of MetaAI). This is one of the very first papers describing backpropagation. The atricle cites it as a key historical step showing how gradient based training became the main way to teach neural networks.</p></li>
-<li><p>Missing information: To fully understand the learning process, you need basics of gradient descent and the chain rule for passing errors backward through layers. The paper assumes you know why single layer networks were limited to simple problems.</p></li>
+<li><p>Summary: Back in the 1980s, simple networks could only learn easy, straight line patterns. This paper shows an early way to train deeper networks with “hidden” units in between. It uses backpropagation, you calculate the error, send it backward through the units, and tweak the connections so the network learns complicated, curvy patterns.</p></li>
+<li><p>Yann LeCun is one of the godfathers of modern deep learning (cheif scientist of Facebook MetaAI). This is one of the very first papers describing backpropagation. The atricle cites it as a key historical step showing how gradient based training became the main way to teach neural networks.</p></li>
+<li><p>Missing information: To fully understand the learning process, you need a solid foundation of iterative minimization equations and theories. Equations dealing with vector and minimize cost functions, as well as matrices need full understanding.</p></li>
 </ul></li>
 </ul>
 
