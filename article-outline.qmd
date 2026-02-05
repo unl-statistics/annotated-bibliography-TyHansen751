@@ -36,11 +36,11 @@ format: html
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 | **Section 3.1: Modeling Text at Character Level**                                                                        | Links RNNs to familiar statistical time series models.                          |
 |                                                                                                                          |                                                                                 |
-| RNNs extend Markov models and state-space models with recursive hidden states and shared parameters.                     |                                                                                 |
+| RNNs extend Markov models and state space models with recursive hidden states and shared parameters.                     |                                                                                 |
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 | **Section 3.2: Estimating RNN Parameters**                                                                               | Shows sequential models use standard statistical inference procedures.          |
 |                                                                                                                          |                                                                                 |
-| RNNs train by maximizing conditional log-likelihood with backpropagation through time.                                   |                                                                                 |
+| RNNs train by maximizing conditional log likelihood with backpropagation through time.                                   |                                                                                 |
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 | **Section 3.3: Generalizing the RNN Concept**                                                                            | Identifies where DL and statistics can collaborate on sequential problems.      |
 |                                                                                                                          |                                                                                 |
@@ -58,7 +58,7 @@ format: html
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 | **Section 5.1: Theories of Deep Learning**                                                                               | Identifies research areas where statistical theory can contribute.              |
 |                                                                                                                          |                                                                                 |
-| Theoretical work on generalization challenges traditional bias-variance trade-offs with double descent.                  |                                                                                 |
+| Theoretical work on generalization challenges traditional bias variance trade offs with double descent.                  |                                                                                 |
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
 | **Section 5.2: Interpretability, Causality, Fairness, Trustworthiness**                                                  | Highlights where statistical methods directly improve DL systems.               |
 |                                                                                                                          |                                                                                 |
@@ -72,5 +72,3 @@ format: html
 |                                                                                                                          |                                                                                 |
 | Statistical methods are valuable for DL reliability and statistics can grow by engaging with DL's scale.                 |                                                                                 |
 +--------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+
-
-
