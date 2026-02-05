@@ -4,7 +4,9 @@ date: 2026/02/05
 author: Ty Hansen
 format: html
 ---
+
 ## "A Brief Tour of Deep Learning from a Statistical Perspective"
+
 **THESIS:** We expose the statistical foundations of deep learning with the goal of facilitating conversation between the deep learning and statistics communities.
 
 ------------------------------------------------------------------------
