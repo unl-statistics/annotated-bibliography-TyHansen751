@@ -1,18 +1,15 @@
 ---
-title: "Template"
-bibliography: references-template.bib
+title: "Annotated Bibliography: Deep Learning from a Statistical Perspective"
+bibliography: AnnotatedBib.bib
 csl: chicago-syllabus.csl
 suppress-bibliography: true
 link-citations: false
 citations-hover: false
 ---
 
-- @healyFuckNuance2017
+- @goodfellowExplainingHarnessingAdversarial2015
 
-    - Summary: Healy argues that nuance, a common (and praised) feature of sociological theory, inhibits abstraction and prevents the development of good theories. Nuance, in Healy's argument, is the tendency to make theories more complicated by adding unnecessary complexity, rather than reducing complexity and making strong statements. Healy presents three 'nuance traps' which plague sociology and argues against it from multiple different perspectives.
-
-    - Reliability assessment: The author is a [professor of sociology at Duke University](https://kieranhealy.org/) and has many different publications in the field. As a result, he is likely qualified to critique the field from an insider's perspective. As this is just a template of an annotated bibliography and this article is unrelated to a review article, I cannot easily assess how this article relates to the review article or overall topic (but you should). 
     
-    - Missing information:
-        - I do not understand sociology enough to have seen this tendency in the field (but it seems to apply well enough to statistics)
-        - The aesthetic argument against nuance is a bit tricky to understand and may require reading up on Davis (1971) - what makes theory interesting. Healy argues that interesting is more important than truth (based on Davis) and that nuance can thus occasionally be interesting but is perhaps more often dull. Without being familiar with Davis, it is hard to know if I'm understanding this component of the argument. 
+
+- @lecunLearningProcessAsymmetric1986
+
