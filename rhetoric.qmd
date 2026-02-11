@@ -1,0 +1,27 @@
+---
+title: "Rhetorical Analysis: A Brief Tour of Deep Learning from a Statistical Perspective"
+author: "Ty Hansen"
+date: "February 10, 2026"
+format: 
+  html:
+    link-citations: true
+  pdf:
+    link-citations: true
+bibliography: references.bib
+---
+
+In “A Brief Tour of Deep Learning from a Statistical Perspective,” [@nalisnickBriefTourDeep2023] use  rhetorical strategies to connect the fields of deep learning and statistics. Their writing is balanced, clear, and concise, which strengthens their overall argument and makes it accessible to both communities.
+
+The authors begin by contrasting the two disciplines. They explain that deep learning emphasizes predictive accuracy, while statistics places greater focus on interpretability and uncertainty quantification. This comparison is presented without suggesting that one field is superior. By referencing w scholars such as Breiman, Welling, and Efron, they root their claims in established research. This helps them build credibility and position themselves as advocates of existing ideas rather than critics of either field. Their use of mathematical notation of y-hat rather than signma-hat
+demonstrates knowledge in both fields.
+
+In their discussion of representation learning, the authors make a strong claim while maintaining  caution. They describe it as “arguably the single most important characteristic” of deep learning. The word “arguably” softens the assertion, acknowledging possible disagreement while still showing significance. They support this claim by moving from technical language, such as “adaptive, nonlinear basis functions,” to concrete examples like image classification and speech recognition. This shift from theory to practical application makes the concept easier to understand.
+
+The authors highlight the importance of scale through repetition: scale of model complexity, scale of data sets, and scale of computation. This parallel structure reinforces how central scale is to deep learning. By contrasting massive datasets with fields like medicine, where data may be limited, they make the differences clear and concise.
+
+Their discussion of stochastic gradient descent (SGD) uses contrast to create tension. They describe first order methods as “naive” yet effective. This contrast challenges assumptions and invites readers to rethink what makes algorithms successful. When addressing generalization, they note that traditional ideas such as the bias-variance tradeoff may not fully explain modern deep learning. By acknowledging that this remains an active area of research, they maintain credibility while presenting the topic.
+
+Overall, [@nalisnickBriefTourDeep2023] effectively use balance, clarity, and careful structure to connect ideas of deep learning and statistics.
+
+
+## References
